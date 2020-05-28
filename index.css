@@ -1,0 +1,289 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+/* inputとtextareaのCSSを指定してください */
+input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+/* contact-submitのCSSを指定してください */
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+#PageTopBtn {
+    position: fixed; /*ボタンの配置場所を固定*/
+    bottom: -10px; /*下からのボタンの配置場所を指定*/
+    right: 10px; /*右からのボタンの配置場所を指定*/
+}
+#PageTopBtn a {
+    display: block; /*配置の調整*/
+    text-decoration: none; /*文字の下線を消す*/
+    background-color:#000000;
+    color: #ffffff; /*文字の色*/
+    text-align: center; /*文字を中央に配置*/
+    border-radius: 5%; /*ボタンの角を少し丸くする*/
+    outline: none; /*クリックしたときの黒い枠を消す*/
+}
+#PageTopBtn a:hover {
+    text-decoration: none; 
+    background: #87cefa; /*マウスオーバー時の背景色*/
+}
+.footer{height: 320px;
+}
+/* パソコンで表示する場合のCSS */
+@media (min-width: 768px) {
+#PageTopBtn {
+    font-size: 13px; /*文字のサイズ*/
+}
+#PageTopBtn a {
+    width: 30px; /*ボタンの幅*/
+    height: 10px; /*ボタンの高さ*/
+    padding: 24px 0; /*文字の配置場所の調整*/
+}
+}
+
+/* スマホで表示する場合のCSS */
+@media (max-width: 767px) {
+#PageTopBtn {
+    font-size: 10px;
+}
+#PageTopBtn a {
+    width: 20px;
+    height: 10px;
+    padding: 17px 0;
+}
+}
+span { border-bottom:solid 1px blue;}
+
+.demo::after {
+  content: "\A" ;
+  white-space: pre;
+  
+}
+
+.demo a:hover {
+    text-decoration: none; 
+    background: #87cefa; /*マウスオーバー時の背景色*/
+    
+}
+.li{
+   line-height: 1.75;     /* 1行の高さを1.75文字分にする */
+}
+h3 {
+   letter-spacing: 0.12em;
+}
+h4 {
+   letter-spacing: 0.12em;
+}
+@media screen and (min-width: 600px) {
+  .upside {
+    float: right;
+    width: 300px;
+  }
+
+  .main {
+    float: left;
+    width: 728px;
+  }
+
+  .sidebar {
+    float: right;
+    width: 300px;
+  }
+}
+
+.adslot_top {
+  height: 100px;
+}
+
+@media screen and (min-width: 600px) {
+  .adslot_top {
+    height: 600px;
+  }
+}
+img{
+ width: 10px
+  height: 10px
+  }
+  p{
+  background-color:#ffd800;
+  }
+.flame33 {
+position: relative;
+margin: 2em auto;
+padding: 1em;
+width: 100%;
+color: #686868; 
+background-color: #fff;
+border: 4px double #20b297; 
+box-shadow: 2px 2px 2px #ccc;
+padding: 15px 20px;
+}
+.flame33 .flame33-title {
+position: absolute;
+display: block;
+text-align:center;
+top: -15px;
+font-weight: bold;
+width: 90%;
+background-color: #20b297; 
+color: #fff; 
+margin: 0 0 20px 20px;
+
+}
+.flame33 p {
+margin-right:50px;
+margin: 0 0 20px 20px;
+
+}
+.v_line_left {
+  border-left: thick solid red;
+  padding-left: 10px;
+ 
+}
+h2{font-size: 1.5em;
+font-size: 80%;
+
+}
+h2{
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+/*上線*/
+h2 {
+  border-right:10px solid #ccc;
+   height: 200px;
+  
+}
+#fixedTableArea {
+    width: 590px;
+    height: 200px;
+    background-color: #DDFFFF;
+}
+#topLeftArea {
+    float: left;
+}
+#topRightArea {
+    width: 400px;
+    float: left;
+    overflow: hidden;
+}
+#bottomLeftArea {
+    float: left;
+    height: 170px;
+    overflow: hidden;
+    width: 400px;
+    height: 170px;  
+}
+
+
+.fixedTable {
+    border-collapse: collapse;
+}
+.fixedTable td {
+    border: 1px solid #888;
+    min-width: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 30px;
+}
+.fixedTable td.dummyColumn {
+    width: 17px;
+    border: 0px;
+}
+.fixedTable td.dummyRow {
+    height: 18px;
+    border: 0px;
+}
+
+img.example1 {
+width: 600px;
+height: 250px;
+}
